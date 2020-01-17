@@ -1,4 +1,4 @@
-# SMBG (Simple Minecraft Banner Generator)
+# SMSBG (Simple Minecraft Server Banner Generator)
 
 *As the name of this project is it's just a simple php script which allows you to create custom banners for your minecarft server. These are live banners so they display live stats of your server. At the moment they display the address of your server, the amount of online players and the version of the server.
 But you may configure these options in the `banner.php` file.*
