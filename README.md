@@ -12,7 +12,7 @@ But you may configure these options in the `banner.php` file.*
 
 ### Installation
 
-**Just simply drag all the files included form the downloaded zip in to a folder and after the go to the `config.php` and change the `app_url` from `http://localhost/banner/` to the domain for the banner generator.**
+**Just simply drag all the files included form the downloaded zip in to a folder and after the go to the `config.php` and change the `app_url` from `http://localhost/banner/` to the domain for the banner generator. After that rename the `htaccess.txt` to `.htaccess` and you are ready to go!**
 
 ### How can you make a request?!
 
