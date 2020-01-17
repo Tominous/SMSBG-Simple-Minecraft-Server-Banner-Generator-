@@ -45,3 +45,16 @@ $config = [
 
 * __Banner:__ `http://localhost/banner/banner?address=mc.hypixel.net&background=1&font=ubuntu`
 * __Query__ `http://localhost/banner/query?address=mc.hypixel.net`
+
+### Nginx Config
+```nginx
+# nginx configuration
+
+autoindex off;
+
+location / {
+  if (!-e $request_filename){
+    rewrite ^/([^\.]+)$ /$1.php break;
+  }
+}
+```
