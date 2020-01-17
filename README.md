@@ -46,6 +46,9 @@ $config = [
 * __Banner:__ `http://localhost/banner/banner?address=mc.hypixel.net&background=1&font=ubuntu`
 * __Query__ `http://localhost/banner/query?address=mc.hypixel.net`
 
+##### Example Banner
+![Banner](https://i.ibb.co/R9700Nr/banner.jpg)
+
 ### Nginx Config (Optional)
 ```nginx
 # nginx configuration
