@@ -7,7 +7,7 @@ But you may configure these options in the `banner.php` file.*
 
 * For prettier urls you can make a request without include the file's extension _(Instead of __banner.php?address=localhost:25565__ you can simply just __banner?address=localhost:25565__)_.
 * This project also includes a server query using [mcsrvstat.us](https://mcsrvstat.us/) api.
-* If you enable the `enable_key` option in the config file you can restrict the usage of the banner generator but then you must need to pass the following value for the future request's: `&key=your_app_key`. You can find the `app_key` in the `config.php` file. If you want to use it it's recommanded to change it frequently but the actaul usage of it is to disable the momentary usage of the generator.
+* If you enable the `enable_key` option in the config file you can restrict the usage of the banner generator but then you must need to pass the following value for the future request's: `&key=your_app_key`. You can find the `app_key` in the `config.php` file. If you want to use it it's recommended to change it frequently but the actual usage of it is to disable the momentary usage of the generator.
 * This project includes 6 default banners (1-6) and 3 default fonts (Roboto, Ubuntu, Minecraftia)
 
 ### Installation
@@ -44,7 +44,7 @@ $config = [
 ### Request Examples
 
 * __Banner:__ `http://localhost/banner/banner?address=mc.hypixel.net&background=1&font=ubuntu`
-* __Query__ `http://localhost/banner/query?address=mc.hypixel.net`
+* __Query:__ `http://localhost/banner/query?address=mc.hypixel.net`
 
 ##### Example Banner
 ![Banner](https://i.ibb.co/R9700Nr/banner.jpg)
